@@ -1,0 +1,29 @@
+.testimonial *{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.testimonial{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.testimonial .feedback-cards{
+    margin: 50px 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: left;
+}
+
+.testimonial h2 {
+    font-size: 2rem;
+}
+
+.testimonial p {
+    font-size: 1.1rem;
+}
+

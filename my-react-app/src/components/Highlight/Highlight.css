@@ -1,0 +1,24 @@
+.service-highlights {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.service-highlights {
+    margin: 50px 0;
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.services {
+    text-align: center;
+    width: 100%;
+}
+
+.services h4 {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}

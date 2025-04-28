@@ -1,0 +1,85 @@
+.footer *{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.footer .wrapper {
+    padding: 50px 215px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .wrapper .col {
+    width: 100%;
+}
+
+.footer .wrapper .col1 img {
+    margin-bottom: 10px;
+}
+
+.footer .wrapper .col1 .about {
+    font-size: 15px;
+    padding-right: 45px;
+    margin-bottom: 15px;
+}
+
+.footer .wrapper .col1 .socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .wrapper .col1 .socials *{
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.footer .wrapper .col1 .socials *:hover {
+    color: rgb(249,116,21);
+}
+
+.footer .wrapper .col .links ul {
+    list-style: none;
+}
+
+.footer .wrapper .col4 .links ul li {
+    display: flex; 
+    gap: 7px;
+}
+
+.footer .wrapper .col .header p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer .wrapper .col .links ul li {
+    margin: 20px 0;
+}
+
+.footer .wrapper .col .links ul li p {
+    display: inline-block;
+    font-size: 15px;
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+.footer .wrapper .col .links ul li p:hover {
+    color: rgb(249,116,21);
+}
+
+.footer .copyright {
+    padding: 0px 215px;
+    padding-bottom: 50px;
+}
+
+.footer .copyright p{
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+
+}
+
+.footer .copyright p:last-child {
+    margin-top: 20px;
+}

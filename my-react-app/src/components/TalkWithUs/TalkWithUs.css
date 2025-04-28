@@ -1,0 +1,66 @@
+.talk-with-us *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.talk-with-us {
+    margin: 50px 215px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.talk-with-us .header {
+    text-align: center;
+}
+
+.talk-with-us .header h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px; 
+    color: rgb(71, 71, 71);
+}
+
+.talk-with-us .header p{
+    font-size: 1.1rem;
+}
+
+.talk-with-us .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.talk-with-us .body .card {
+    width: 600px;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+
+.talk-with-us .body .card h3{
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.talk-with-us .body .card p {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.talk-with-us .body .card button {
+    padding: 15px 20px;
+    letter-spacing: 2px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.talk-with-us .body .card button:hover {
+    padding: 12px 20px;
+    margin: 3px 0;
+}
